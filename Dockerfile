@@ -17,6 +17,9 @@ COPY lib-apk-db-installed /lib/apk/db/installed
 # This will trigger a malware finding
 ADD https://secure.eicar.org/eicar.com /eicar.com
 
+# This will trigger a malware finding
+ADD https://secure.eicar.org/eicar.com /eicar.com
+
 # This will trigger a content finding for a private key in PEM format
 COPY private_unencrypted.pem /private_unencrypted.pem
 
